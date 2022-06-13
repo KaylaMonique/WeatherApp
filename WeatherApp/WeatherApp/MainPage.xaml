@@ -4,6 +4,7 @@
              x:Class="WeatherApp.MainPage" Title="Weather App" BackgroundColor="#5c89dc">
 
     <StackLayout>
+        <Label Text="Today's Weather" VerticalOptions="Start" FontAttributes="Bold"/>
         <Label Text="{Binding main.temp}"/>
         <Label Text="{Binding main.temp_min}"/>
         <Label Text="{Binding main.temp_max}"/>
