@@ -4,9 +4,15 @@
              x:Class="WeatherApp.MainPage" Title="Weather App" BackgroundColor="#5c89dc">
 
     <StackLayout>
-        <Label Text="{Binding }"
-
-
+        <Label Text="{Binding main.temp}"/>
+        <Label Text="{Binding main.temp_min}"/>
+        <Label Text="{Binding main.temp_max}"/>
+        <Label Text="{Binding main.pressure}"/>
+        <Label Text="{Binding main.humidity}"/>
+        <Label Text="{Binding Weather.icon}"/>
+        <Label Text="{Binding Wind.speed}"/>
+        <Label Text="{Binding Sys.sunrise}"/>
+        <Label Text="{Binding Sys.sunset}"/>
     </StackLayout>
 
 </ContentPage>
